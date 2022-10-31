@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MenuLateralDemo.Vistas.Master"
+             Title="Master"
+             >
+    <ContentPage.Content>
+        <StackLayout >
+            <Button Text="Acerca"
+                    x:Name="btnAcerca"
+                    BackgroundColor="White"
+                    ImageSource="acercade.png"
+                    Clicked="btnAcerca_Clicked"
+                   
+                   
+                    ></Button>
+            <Button Text="Ventas"
+                    x:Name="btnVentas"
+                    BackgroundColor="White"
+                    ImageSource="acercade.png"
+                    Clicked="btnVentas_Clicked"
+                    
+                    ></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

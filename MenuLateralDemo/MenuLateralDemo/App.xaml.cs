@@ -6,11 +6,12 @@ namespace MenuLateralDemo
 {
     public partial class App : Application
     {
+        public static MasterDetailPage MasterDetaller{ get; set; }
         public App()
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Vistas.Contenedor();
         }
 
         protected override void OnStart()
